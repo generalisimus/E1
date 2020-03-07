@@ -6,10 +6,10 @@ class NameTestCase(unittest.TestCase):
 
 	'''тестируем функцию visel'''
 	def test_letter_first(self):
-		self.assertIn('s', "skillfactory")
+ 	   self.assertIn('s', "skillfactory")
 
 	def test_letter_second(self):
-		self.assertIn('f', "skillfactory")
+	    self.assertIn('f', "skillfactory")
 
 
 	def test_letter_third(self):
@@ -18,5 +18,5 @@ class NameTestCase(unittest.TestCase):
 	def test_letter_four(self):
 		self.assertIn("testing",words) 
 
-if __name__ == "__name__":
-	unittest.main()
+# if __name__ == "__name__":
+# 	unittest.main()
