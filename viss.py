@@ -36,4 +36,4 @@ def visel_testing():
 	    		break
 	
 	    print(''.join(gamer_word))
-visel_testing()	 
+#visel_testing()	 
